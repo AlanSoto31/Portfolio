@@ -1,0 +1,28 @@
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px 5%;
+  @include d-flex(center, space-between);
+
+  background: rgb(247, 242, 242);
+  p {
+    color: #F9855B;
+    font-size: 35px;
+    font-weight: 900;
+  }
+  a {
+    padding: 0 0 0 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    size: 16px;
+    line-height: 24px;
+    &:hover {
+      font-weight: bold;
+      color: #F9855B;
+    }
+  }
+
+}

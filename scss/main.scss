@@ -1,0 +1,16 @@
+@import "components/basics";
+@import "components/responsive";
+@import "components/nav-bar";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: #E5E5E5;
+}

@@ -1,0 +1,7 @@
+$bp-sm: 425px;
+
+@media (max-width: $bp-sm){
+  .hide-sm {
+    display: none;
+  }
+}
