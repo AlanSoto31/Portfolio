@@ -1,7 +1,3 @@
-@import "components/basics";
-@import "components/responsive";
-@import "components/nav-bar";
-
 * {
   margin: 0;
   padding: 0;
@@ -13,4 +9,10 @@
 
 body {
   background: #E5E5E5;
+  padding: 5%;
 }
+
+@import "components/basics";
+@import "components/responsive";
+@import "components/nav-bar";
+@import "components/body";

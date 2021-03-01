@@ -1,7 +1,23 @@
 $bp-sm: 425px;
+$bp-m: 1024px;
 
 @media (max-width: $bp-sm){
   .hide-sm {
     display: none;
   }
 }
+
+@media (min-width: $bp-sm){
+  .d-flex-sm {
+    @include d-flex(center, space-between);
+  }
+}
+
+@media (min-width: $bp-m){
+  .w-50-m {
+    width: 50%;
+  }
+}
+
+
+
