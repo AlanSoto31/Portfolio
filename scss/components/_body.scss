@@ -6,17 +6,81 @@
     font-size: 1.3em;
   }
   .icon-cont {
-    p {
-      margin: 20px 0;
-    }
+    margin: 100px 0;
     }
   .intro-text {
-    margin: 30px 0 50px 0;
-    opacity: .6;
+    margin: 30px 0 0 0;
+    opacity: .5;
   }
   i {
     font-size: 30px;
     color: $org;
     padding-left: 15px;
   }
+}
+
+.bworks{
+  h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 105.3%;
+  }
+  .bworks-grid {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.bworks-titles {
+  color: white;
+}
+
+.bworks-tags-con {
+  @include d-flex(row, center, flex-start);
+}
+
+.bworks-tags {
+  color: white;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 5px;
+  margin-right: 5px;
+  background: #423B39;
+  margin-bottom: 5px;
+}
+
+.bworks-btns {
+  font-size: 16px;
+  padding: 10px 30px;
+  background: $org;
+  color: white;
+}
+
+.bworks-con {
+  background-size: cover;
+  background-position: center;
+}
+
+.bworks-img1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
+}
+
+.bworks-img2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
+}
+
+.bworks-img3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
+}
+
+.bworks-img4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
+}
+
+.bworks-img5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
 }

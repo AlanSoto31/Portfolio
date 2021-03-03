@@ -1,5 +1,6 @@
-@mixin d-flex($ai, $jc){
+@mixin d-flex($dir, $ai, $jc){
   display: flex;
+  flex-direction: $dir;
   align-items: $ai;
   justify-content: $jc;
 }

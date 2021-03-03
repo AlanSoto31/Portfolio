@@ -6,7 +6,8 @@ nav {
   width: 100%;
   padding: 30px 5%;
   background: #E5E5E5;
-  @include d-flex(center, space-between);
+  @include d-flex(row, center, space-between);
+  z-index: 2;
   p {
     color: $org;
     font-size: 35px;
@@ -15,8 +16,8 @@ nav {
   a {
     padding: 0 0 0 15px;  
     color: black;
-    font-family: 'Poppins', sans-serif;
-    size: 16px;
+    font-style: normal;
+    font-size: 16px;
     line-height: 24px;
     &:hover {
       font-weight: bold;
