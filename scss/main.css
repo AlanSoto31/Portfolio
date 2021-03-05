@@ -10,7 +10,7 @@
 }
 
 body {
-  background: #E5E5E5;
+  background: #F2F2F2;
   padding: 5%;
 }
 
@@ -111,6 +111,10 @@ body {
   }
   .bworks-btns {
     width: 100%;
+  }
+  .about-con, .len-con {
+    width: 100%;
+    margin-bottom: 50px;
   }
 }
 
@@ -238,6 +242,13 @@ body {
   .bworks-con, .bworks-tags-btns-con {
     padding: 20px;
   }
+  .about-con, .len-con {
+    float: left;
+    width: 50%;
+  }
+  .about-text {
+    width: 80%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -261,7 +272,7 @@ nav {
   left: 0;
   width: 100%;
   padding: 30px 5%;
-  background: #E5E5E5;
+  background: #F2F2F2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,7 +328,6 @@ nav a:hover {
 
 .intro .intro-text {
   margin: 30px 0 0 0;
-  opacity: .5;
 }
 
 .intro i {
@@ -326,11 +336,11 @@ nav a:hover {
   padding-left: 15px;
 }
 
-.bworks h1 {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 105.3%;
+.texts {
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 24px;
+  color: #727274;
 }
 
 .bworks .bworks-grid {
@@ -341,6 +351,12 @@ nav a:hover {
   grid-gap: 20px;
   -ms-grid-columns: (1fr)[6];
       grid-template-columns: repeat(6, 1fr);
+}
+
+.main-titles {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 105.3%;
 }
 
 .bworks-titles {
@@ -374,14 +390,11 @@ nav a:hover {
   background: #423B39;
 }
 
-.bworks-btns, .exit-btns, .pro-btns {
+.btns {
   font-size: 16px;
   padding: 10px 30px;
   background: #F9855B;
   color: white;
-}
-
-.bworks-btns {
   margin-top: 10px;
 }
 
@@ -464,11 +477,31 @@ nav a:hover {
   color: #727274;
 }
 
-.pro-btns-text {
-  margin-right: 10px;
-}
-
 .fa-external-link-alt, .fa-github {
   font-size: 20px;
+}
+
+.aboutme-info-main-con {
+  margin-top: 100px;
+}
+
+.aboutme-info-main-con .about-con p {
+  margin: 30px 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.len-titles {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 105.3%;
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=main.css.map */

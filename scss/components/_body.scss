@@ -10,7 +10,6 @@
     }
   .intro-text {
     margin: 30px 0 0 0;
-    opacity: .5;
   }
   i {
     font-size: 30px;
@@ -19,13 +18,14 @@
   }
 }
 
+.texts {
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 24px;
+  color: #727274;
+}
+
 .bworks{
-  h1 {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 105.3%;
-  }
   .bworks-grid {
     margin-top: 50px;
     width: 100%;
@@ -33,6 +33,12 @@
     grid-gap: 20px;
     grid-template-columns: repeat(6, 1fr);
   }
+}
+
+.main-titles {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 105.3%;
 }
 
 .bworks-titles {
@@ -52,14 +58,11 @@
   background: #423B39;
 }
 
-.bworks-btns, .exit-btns, .pro-btns {
+.btns {
   font-size: 16px;
   padding: 10px 30px;
   background: $org;
   color: white;
-}
-
-.bworks-btns {
   margin-top: 10px;
 }
 
@@ -127,10 +130,31 @@
   color: #727274;
 }
 
-.pro-btns-text{
-  margin-right: 10px;
-}
-
 .fa-external-link-alt, .fa-github {
   font-size: 20px;
+}
+
+.aboutme-info-main-con {
+  margin-top: 100px;
+  .about-con {
+    p {
+      margin: 30px 0;
+    }
+  }
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 15px 0;
+  padding: 0;
+}
+
+.len-titles {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 105.3%;
+  margin-bottom: 15px;
 }

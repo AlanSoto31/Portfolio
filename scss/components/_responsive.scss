@@ -60,6 +60,10 @@ $bp-lg: 1024px;
   .bworks-btns {
     width: 100%;
   }
+  .about-con, .len-con {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 
 @media (min-width: 768px){ 
@@ -93,6 +97,7 @@ $bp-lg: 1024px;
     width: 220px;
   }
 }
+
 
 @media (min-width: 769px){
   .bworks-big-imgs {
@@ -129,6 +134,13 @@ $bp-lg: 1024px;
   }
   .bworks-con, .bworks-tags-btns-con {
     padding: 20px;
+  }
+  .about-con, .len-con {
+    float: left;
+    width: 50%;
+  }
+  .about-text {
+    width: 80%;
   }
 }
 
