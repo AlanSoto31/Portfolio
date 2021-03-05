@@ -5,17 +5,6 @@
   }p {
     font-size: 1.3em;
   }
-  .icon-cont {
-    margin: 100px 0;
-    }
-  .intro-text {
-    margin: 30px 0 0 0;
-  }
-  i {
-    font-size: 30px;
-    color: $org;
-    padding-left: 15px;
-  }
 }
 
 .texts {
@@ -26,6 +15,7 @@
 }
 
 .bworks{
+  margin-top: 100px;
   .bworks-grid {
     margin-top: 50px;
     width: 100%;
@@ -152,9 +142,27 @@ hr {
   padding: 0;
 }
 
+.len-con {
+  margin-bottom: 100px;
+}
+
 .len-titles {
   font-weight: 600;
   font-size: 20px;
   line-height: 105.3%;
   margin-bottom: 15px;
 }
+
+
+.contact-con {
+  clear: both;
+  .personal-info-con {
+    margin-top: 30px;
+  }
+  i {
+    font-size: 30px;
+    color: $org;
+    padding-left: 15px;
+  }
+}
+

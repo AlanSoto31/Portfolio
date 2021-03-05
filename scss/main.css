@@ -249,6 +249,9 @@ body {
   .about-text {
     width: 80%;
   }
+  .contact-con {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -322,25 +325,15 @@ nav a:hover {
   font-size: 1.3em;
 }
 
-.intro .icon-cont {
-  margin: 100px 0;
-}
-
-.intro .intro-text {
-  margin: 30px 0 0 0;
-}
-
-.intro i {
-  font-size: 30px;
-  color: #F9855B;
-  padding-left: 15px;
-}
-
 .texts {
   font-weight: lighter;
   font-size: 16px;
   line-height: 24px;
   color: #727274;
+}
+
+.bworks {
+  margin-top: 100px;
 }
 
 .bworks .bworks-grid {
@@ -498,10 +491,28 @@ hr {
   padding: 0;
 }
 
+.len-con {
+  margin-bottom: 100px;
+}
+
 .len-titles {
   font-weight: 600;
   font-size: 20px;
   line-height: 105.3%;
   margin-bottom: 15px;
+}
+
+.contact-con {
+  clear: both;
+}
+
+.contact-con .personal-info-con {
+  margin-top: 30px;
+}
+
+.contact-con i {
+  font-size: 30px;
+  color: #F9855B;
+  padding-left: 15px;
 }
 /*# sourceMappingURL=main.css.map */
