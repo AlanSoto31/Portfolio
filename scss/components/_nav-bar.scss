@@ -7,7 +7,7 @@ nav {
   padding: 30px 5%;
   background: #F2F2F2;
   @include d-flex(row, center, space-between);
-  z-index: 2;
+  z-index: 3;
   p {
     color: $org;
     font-size: 35px;

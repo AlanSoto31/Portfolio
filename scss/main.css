@@ -96,6 +96,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .hide-m {
+    display: none;
+  }
   .bworks-con {
     -ms-grid-column: 1;
     -ms-grid-column-span: 6;
@@ -291,7 +294,7 @@ nav {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  z-index: 2;
+  z-index: 3;
 }
 
 nav p {
@@ -322,6 +325,7 @@ nav a:hover {
 }
 
 .intro p {
+  margin-top: 30px;
   font-size: 1.3em;
 }
 
@@ -334,6 +338,7 @@ nav a:hover {
 
 .bworks {
   margin-top: 100px;
+  z-index: 2;
 }
 
 .bworks .bworks-grid {
@@ -514,5 +519,37 @@ hr {
   font-size: 30px;
   color: #F9855B;
   padding-left: 15px;
+}
+
+.bg-img-con {
+  z-index: -1;
+  position: relative;
+}
+
+.bg-img-con .bg-img {
+  position: absolute;
+  width: 50%;
+  height: 1323.48px;
+  right: 0;
+  top: 100px;
+  background-image: url(https://s3-alpha-sig.figma.com/img/abe3/5840/d659d5e552b46a354ae50dde02fbcac5?Expires=1615766400&Signature=eq-tBJumqJwpxQzx4LVLXUBbMjyCx1VJFvUQcSsHMHFzMrv3P4-p1hnfl4MtYZn7y8yq1k~~MfvgDtYCEKaioNQ8mNVQfbYRTrpyHAb6fEppq-SgNcOxrLkTe-gCVRH6bjl1-3CzUhEKPaKFXo2dWbH460e2Xj2azS1XzT6pREKK4F3BUaP59DNYYGTewy2DH2oZMKsi5rF~Mg056hEO1e0CHsiME1OuuFLoQK5y80zFS6UIKgn0htwZWgs6i9q61HPNVqZLtMzWuitnObHI-7-nCychW3AFDL21eQ353B37GGeN0zzYkwchDbvMpHJJy5KT-XZCmwmD8VQ5s1n0tg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+}
+
+.bg-img-con .rect1, .bg-img-con .rect2 {
+  position: absolute;
+  width: 20%;
+  background: #F2F2F2;
+}
+
+.bg-img-con .rect1 {
+  right: 0;
+  top: 100px;
+  height: 450px;
+}
+
+.bg-img-con .rect2 {
+  right: 30%;
+  top: 548px;
+  height: 850px;
 }
 /*# sourceMappingURL=main.css.map */

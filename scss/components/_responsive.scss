@@ -48,6 +48,9 @@ $bp-lg: 1024px;
  }
 
 @media (max-width: 768px){
+  .hide-m {
+    display: none;
+  }
   .bworks-con  {
     grid-column: 1 / 7;
     height: 300px;
