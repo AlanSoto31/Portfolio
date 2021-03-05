@@ -5,24 +5,28 @@ nav {
   left: 0;
   width: 100%;
   padding: 30px 5%;
-  background: #F2F2F2;
+  background: #f2f2f2;
+
   @include d-flex(row, center, space-between);
+
   z-index: 3;
+
   p {
     color: $org;
     font-size: 35px;
     font-weight: 900;
   }
+
   a {
-    padding: 0 0 0 15px;  
+    padding: 0 0 0 15px;
     color: black;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
+
     &:hover {
       font-weight: bold;
       color: $org;
     }
   }
-
 }

@@ -1,8 +1,11 @@
-.intro{
+.intro {
   margin-top: 100px;
+
   h1 {
     font-size: 2.5em;
-  }p {
+  }
+
+  p {
     margin-top: 30px;
     font-size: 1.3em;
   }
@@ -15,9 +18,10 @@
   color: #727274;
 }
 
-.bworks{
+.bworks {
   margin-top: 100px;
   z-index: 2;
+
   .bworks-grid {
     margin-top: 50px;
     width: 100%;
@@ -37,7 +41,8 @@
   color: white;
 }
 
-.bworks-tags-con, .pro-tags-con {
+.bworks-tags-con,
+.pro-tags-con {
   @include d-flex(row, center, flex-start);
 }
 
@@ -47,7 +52,7 @@
   line-height: 21px;
   padding: 5px;
   margin-right: 5px;
-  background: #423B39;
+  background: #423b39;
 }
 
 .btns {
@@ -58,39 +63,46 @@
   margin-top: 10px;
 }
 
-.bworks-con, .pro-imgs {
+.bworks-con,
+.pro-imgs {
   background-size: cover;
   background-position: center;
 }
 
-.bworks-img1, .pro-img1 {
+.bworks-img1,
+.pro-img1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
 }
 
-.bworks-img2, .pro-img2 {
+.bworks-img2,
+.pro-img2 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg);
 }
 
-.bworks-img3, .pro-img3 {
+.bworks-img3,
+.pro-img3 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/poolside-fm-796x417.jpg);
 }
 
-.bworks-img4, .pro-img4 {
+.bworks-img4,
+.pro-img4 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
 }
 
-.bworks-img5, .pro-img5 {
+.bworks-img5,
+.pro-img5 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
 }
 
-.projects-con{
+.projects-con {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(250, 250, 250, .8);
+  background: rgba(250, 250, 250, 0.8);
   width: 100%;
   height: 100vh;
   z-index: 5;
+
   .projects {
     width: 100%;
     height: 100%;
@@ -101,7 +113,8 @@
   width: 100%;
 }
 
-.d-none, .d-none-con {
+.d-none,
+.d-none-con {
   display: none;
 }
 
@@ -109,7 +122,8 @@
   background: white;
 }
 
-.pro-description-con, .pro-btns-con {
+.pro-description-con,
+.pro-btns-con {
   width: 100%;
   height: 120px;
 }
@@ -122,12 +136,14 @@
   color: #727274;
 }
 
-.fa-external-link-alt, .fa-github {
+.fa-external-link-alt,
+.fa-github {
   font-size: 20px;
 }
 
 .aboutme-info-main-con {
   margin-top: 100px;
+
   .about-con {
     p {
       margin: 30px 0;
@@ -155,12 +171,13 @@ hr {
   margin-bottom: 15px;
 }
 
-
 .contact-con {
   clear: both;
+
   .personal-info-con {
     margin-top: 30px;
   }
+
   i {
     font-size: 30px;
     color: $org;
@@ -171,6 +188,7 @@ hr {
 .bg-img-con {
   z-index: -1;
   position: relative;
+
   .bg-img {
     position: absolute;
     width: 50%;
@@ -179,21 +197,23 @@ hr {
     top: 100px;
     background-image: url(https://s3-alpha-sig.figma.com/img/abe3/5840/d659d5e552b46a354ae50dde02fbcac5?Expires=1615766400&Signature=eq-tBJumqJwpxQzx4LVLXUBbMjyCx1VJFvUQcSsHMHFzMrv3P4-p1hnfl4MtYZn7y8yq1k~~MfvgDtYCEKaioNQ8mNVQfbYRTrpyHAb6fEppq-SgNcOxrLkTe-gCVRH6bjl1-3CzUhEKPaKFXo2dWbH460e2Xj2azS1XzT6pREKK4F3BUaP59DNYYGTewy2DH2oZMKsi5rF~Mg056hEO1e0CHsiME1OuuFLoQK5y80zFS6UIKgn0htwZWgs6i9q61HPNVqZLtMzWuitnObHI-7-nCychW3AFDL21eQ353B37GGeN0zzYkwchDbvMpHJJy5KT-XZCmwmD8VQ5s1n0tg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
   }
-  .rect1, .rect2  {
+
+  .rect1,
+  .rect2 {
     position: absolute;
     width: 20%;
-    background: #F2F2F2;
+    background: #f2f2f2;
   }
+
   .rect1 {
     right: 0;
     top: 100px;
     height: 450px;
   }
+
   .rect2 {
     right: 30%;
     top: 548px;
     height: 850px;
   }
 }
-
-

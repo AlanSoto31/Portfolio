@@ -1,4 +1,4 @@
-@mixin d-flex($dir, $ai, $jc){
+@mixin d-flex($dir, $ai, $jc) {
   display: flex;
   flex-direction: $dir;
   align-items: $ai;
@@ -6,4 +6,4 @@
   flex-wrap: wrap;
 }
 
-$org: #F9855B;
+$org: #f9855b;
