@@ -90,9 +90,6 @@ body {
   .pro-btns {
     width: 100%;
   }
-  .pro-btns-text {
-    margin-right: 10px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -132,7 +129,6 @@ body {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     padding: 20px;
-    height: 30%;
   }
   .pro-btns-con {
     -ms-grid-column: 2;
@@ -273,10 +269,10 @@ body {
 
 @media (min-width: 1440px) {
   .projects-con {
-    padding: 5% 15%;
+    padding: 5% 10% 0 10%;
   }
   .pro-imgs {
-    height: 70%;
+    height: 60%;
   }
 }
 
@@ -402,6 +398,9 @@ nav a:hover {
   padding: 10px 30px;
   background: #f9855b;
   color: white;
+}
+
+.bworks-btns {
   margin-top: 10px;
 }
 
@@ -413,17 +412,17 @@ nav a:hover {
 
 .bworks-img1,
 .pro-img1 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/pexels-cottonbro-5081930-796x531.jpg);
+  background-image: url(/dist/css/images/css-capstone.png);
 }
 
 .bworks-img2,
 .pro-img2 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/tnw2020-empty_feature_img.jpg);
+  background-image: url(/dist/css/images/rails-capstone.png);
 }
 
 .bworks-img3,
 .pro-img3 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/poolside-fm-796x417.jpg);
+  background-image: url(/dist/css/images/ruby-capstone.png);
 }
 
 .bworks-img4,
@@ -453,6 +452,7 @@ nav a:hover {
 
 .pro-imgs {
   width: 100%;
+  position: relative;
 }
 
 .d-none,
@@ -460,8 +460,19 @@ nav a:hover {
   display: none;
 }
 
+.exit-btns {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .details-con {
   background: white;
+}
+
+.pro-btns-text {
+  text-align: center;
+  margin-right: 10px;
 }
 
 .pro-description-con,
@@ -490,6 +501,7 @@ nav a:hover {
 
 .pro-description-text {
   color: #727274;
+  margin-top: 20px;
 }
 
 .fa-external-link-alt,
