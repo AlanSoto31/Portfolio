@@ -74,17 +74,20 @@
 
 .bworks-img1,
 .pro-img1 {
-  background: url("../../img/csscapstone.png");
+  background: url("../img/csscapstone.png") no-repeat center center;
+  background-size: cover;
 }
 
 .bworks-img2,
 .pro-img2 {
-  background: url("../img/railscapstone.png");
+  background: url("../img/railscapstone.png") no-repeat center center;
+  background-size: cover;
 }
 
 .bworks-img3,
 .pro-img3 {
-  background: url("../img/rubycapstone.png");
+  background: url("../img/rubycapstone.png")no-repeat center center;
+  background-size: cover;
 }
 
 .bworks-img4,
